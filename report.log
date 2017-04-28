@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 APR 2017 23:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 APR 2017 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -386,37 +386,170 @@ e
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 54.
+LaTeX Font Info:    Try loading font information for U+msa on input line 53.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 54.
+LaTeX Font Info:    Try loading font information for U+msb on input line 53.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+<Figures/Iris_1/plotnospieces.png, id=1, 481.8pt x 481.8pt>
+File: Figures/Iris_1/plotnospieces.png Graphic file (type png)
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./repo
-rt.aux) ) 
+<use Figures/Iris_1/plotnospieces.png>
+Package pdftex.def Info: Figures/Iris_1/plotnospieces.png used on input line 65
+.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<Figures/Iris_1/plotspieces.png, id=3, 481.8pt x 481.8pt>
+File: Figures/Iris_1/plotspieces.png Graphic file (type png)
+
+<use Figures/Iris_1/plotspieces.png>
+Package pdftex.def Info: Figures/Iris_1/plotspieces.png used on input line 71.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+Overfull \hbox (24.12369pt too wide) in paragraph at lines 64--76
+[]$[]$  $[]$
+ []
+
+[1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ucs/data/uni-1.def
+File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
+)
+<Figures/Crabs2_1/plotnospieces.png, id=16, 481.8pt x 481.8pt>
+File: Figures/Crabs2_1/plotnospieces.png Graphic file (type png)
+
+<use Figures/Crabs2_1/plotnospieces.png>
+Package pdftex.def Info: Figures/Crabs2_1/plotnospieces.png used on input line 
+87.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<Figures/Crabs2_1/plotspieces.png, id=17, 481.8pt x 481.8pt>
+File: Figures/Crabs2_1/plotspieces.png Graphic file (type png)
+
+<use Figures/Crabs2_1/plotspieces.png>
+Package pdftex.def Info: Figures/Crabs2_1/plotspieces.png used on input line 93
+.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+Overfull \hbox (24.12369pt too wide) in paragraph at lines 86--98
+[]$[]$  $[]$
+ []
+
+[2 <./Figures/Iris_1/plotnospieces.png> <./Figures/Iris_1/plotspieces.png>]
+[3 <./Figures/Crabs2_1/plotnospieces.png> <./Figures/Crabs2_1/plotspieces.png>]
+<Figures/Mutations2_1/shepard2.png, id=28, 481.8pt x 481.8pt>
+File: Figures/Mutations2_1/shepard2.png Graphic file (type png)
+
+<use Figures/Mutations2_1/shepard2.png>
+Package pdftex.def Info: Figures/Mutations2_1/shepard2.png used on input line 1
+09.
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
+
+<Figures/Mutations2_1/shepard3.png, id=29, 481.8pt x 481.8pt>
+File: Figures/Mutations2_1/shepard3.png Graphic file (type png)
+
+<use Figures/Mutations2_1/shepard3.png>
+Package pdftex.def Info: Figures/Mutations2_1/shepard3.png used on input line 1
+15.
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
+
+Overfull \hbox (24.12369pt too wide) in paragraph at lines 108--120
+[]$[]$  $[]$
+ []
+
+<Figures/Mutations2_1/shepard4.png, id=30, 481.8pt x 481.8pt>
+File: Figures/Mutations2_1/shepard4.png Graphic file (type png)
+
+<use Figures/Mutations2_1/shepard4.png>
+Package pdftex.def Info: Figures/Mutations2_1/shepard4.png used on input line 1
+24.
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
+
+<Figures/Mutations2_1/shepard5.png, id=31, 481.8pt x 481.8pt>
+File: Figures/Mutations2_1/shepard5.png Graphic file (type png)
+
+<use Figures/Mutations2_1/shepard5.png>
+Package pdftex.def Info: Figures/Mutations2_1/shepard5.png used on input line 1
+30.
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
+
+Overfull \hbox (24.12369pt too wide) in paragraph at lines 123--135
+[]$[]$  $[]$
+ []
+
+<Figures/Mutations2_1/barplot.png, id=32, 481.8pt x 481.8pt>
+File: Figures/Mutations2_1/barplot.png Graphic file (type png)
+
+<use Figures/Mutations2_1/barplot.png>
+Package pdftex.def Info: Figures/Mutations2_1/barplot.png used on input line 14
+0.
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
+ [4 <./Figures/Mutations2_1/shepard2.png> <./Figures/Mutations2_1/shepard3.png>
+ <./Figures/Mutations2_1/shepard4.png> <./Figures/Mutations2_1/shepard5.png>]
+<Figures/Iris_2/kmeans2.png, id=40, 481.8pt x 481.8pt>
+File: Figures/Iris_2/kmeans2.png Graphic file (type png)
+
+<use Figures/Iris_2/kmeans2.png>
+Package pdftex.def Info: Figures/Iris_2/kmeans2.png used on input line 152.
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
+
+<Figures/Iris_2/kmeans3.png, id=41, 481.8pt x 481.8pt>
+File: Figures/Iris_2/kmeans3.png Graphic file (type png)
+
+<use Figures/Iris_2/kmeans3.png>
+Package pdftex.def Info: Figures/Iris_2/kmeans3.png used on input line 158.
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
+
+Overfull \hbox (24.12369pt too wide) in paragraph at lines 151--163
+[]$[]$  $[]$
+ []
+
+[5 <./Figures/Mutations2_1/barplot.png>]
+<Figures/Iris_2/kmeans4.png, id=46, 481.8pt x 481.8pt>
+File: Figures/Iris_2/kmeans4.png Graphic file (type png)
+
+<use Figures/Iris_2/kmeans4.png>
+Package pdftex.def Info: Figures/Iris_2/kmeans4.png used on input line 164.
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+<Figures/Iris_2/withinvar.png, id=47, 481.8pt x 481.8pt>
+File: Figures/Iris_2/withinvar.png Graphic file (type png)
+
+<use Figures/Iris_2/withinvar.png>
+Package pdftex.def Info: Figures/Iris_2/withinvar.png used on input line 175.
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
+ [6 <./Figures/Iris_2/kmeans2.png> <./Figures/Iris_2/kmeans3.png> <./Figures/Ir
+is_2/kmeans4.png>] [7 <./Figures/Iris_2/withinvar.png>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 7228 strings out of 493014
- 107517 string characters out of 6133351
- 215269 words of memory out of 5000000
- 10659 multiletter control sequences out of 15000+600000
- 9789 words of font info for 37 fonts, out of 8000000 for 9000
+ 7941 strings out of 493014
+ 116253 string characters out of 6133351
+ 218269 words of memory out of 5000000
+ 11349 multiletter control sequences out of 15000+600000
+ 12449 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,40p,329b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcs
-c10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
-b>
-Output written on report.pdf (1 page, 52780 bytes).
+ 42i,6n,40p,924b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on report.pdf (7 pages, 450563 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

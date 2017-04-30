@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 APR 2017 23:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 APR 2017 23:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -496,17 +496,17 @@ Package pdftex.def Info: Figures/Mutations2_1/barplot.png used on input line 14
 File: Figures/Iris_2/kmeans2.png Graphic file (type png)
 
 <use Figures/Iris_2/kmeans2.png>
-Package pdftex.def Info: Figures/Iris_2/kmeans2.png used on input line 152.
+Package pdftex.def Info: Figures/Iris_2/kmeans2.png used on input line 153.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
 <Figures/Iris_2/kmeans3.png, id=41, 481.8pt x 481.8pt>
 File: Figures/Iris_2/kmeans3.png Graphic file (type png)
 
 <use Figures/Iris_2/kmeans3.png>
-Package pdftex.def Info: Figures/Iris_2/kmeans3.png used on input line 158.
+Package pdftex.def Info: Figures/Iris_2/kmeans3.png used on input line 159.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
-Overfull \hbox (24.12369pt too wide) in paragraph at lines 151--163
+Overfull \hbox (24.12369pt too wide) in paragraph at lines 152--164
 []$[]$  $[]$
  []
 
@@ -515,41 +515,72 @@ Overfull \hbox (24.12369pt too wide) in paragraph at lines 151--163
 File: Figures/Iris_2/kmeans4.png Graphic file (type png)
 
 <use Figures/Iris_2/kmeans4.png>
-Package pdftex.def Info: Figures/Iris_2/kmeans4.png used on input line 164.
+Package pdftex.def Info: Figures/Iris_2/kmeans4.png used on input line 165.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
-<Figures/Iris_2/withinvar.png, id=47, 481.8pt x 481.8pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
+
+ []
+
+[6 <./Figures/Iris_2/kmeans2.png> <./Figures/Iris_2/kmeans3.png> <./Figures/Iri
+s_2/kmeans4.png>] <Figures/Iris_2/withinvar.png, id=53, 481.8pt x 481.8pt>
 File: Figures/Iris_2/withinvar.png Graphic file (type png)
 
 <use Figures/Iris_2/withinvar.png>
-Package pdftex.def Info: Figures/Iris_2/withinvar.png used on input line 175.
+Package pdftex.def Info: Figures/Iris_2/withinvar.png used on input line 183.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
- [6 <./Figures/Iris_2/kmeans2.png> <./Figures/Iris_2/kmeans3.png> <./Figures/Ir
-is_2/kmeans4.png>] [7 <./Figures/Iris_2/withinvar.png>] (./report.aux) ) 
+
+Overfull \hbox (10.38913pt too wide) in paragraph at lines 195--201
+[][] 
+ []
+
+<Figures/Iris_2/interaction.png, id=54, 481.8pt x 481.8pt>
+File: Figures/Iris_2/interaction.png Graphic file (type png)
+
+<use Figures/Iris_2/interaction.png>
+Package pdftex.def Info: Figures/Iris_2/interaction.png used on input line 204.
+
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
+
+Overfull \hbox (44.82285pt too wide) in paragraph at lines 194--209
+[]$[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--209
+
+ []
+
+[7 <./Figures/Iris_2/withinvar.png>] [8 <./Figures/Iris_2/interaction.png>]
+(./report.aux) ) 
 Here is how much of TeX's memory you used:
- 7941 strings out of 493014
- 116253 string characters out of 6133351
- 218269 words of memory out of 5000000
- 11349 multiletter control sequences out of 15000+600000
+ 7947 strings out of 493014
+ 116423 string characters out of 6133351
+ 219269 words of memory out of 5000000
+ 11354 multiletter control sequences out of 15000+600000
  12449 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,40p,924b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on report.pdf (7 pages, 450563 bytes).
+ 42i,8n,40p,924b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on report.pdf (8 pages, 549923 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

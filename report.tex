@@ -146,6 +146,7 @@
 	\section{ Exercice 3: Méthodes des centres mobiles}
 	Le but de cet exercice est de manipuler la méthode des kmeans sur les trois jeux de données Iris2, Crabs2 et mutations et analyser la qualité de la méthode et ses limites. On utilisera l'index de Rand ajustée ainsi que les représentations graphiques pour juger des performances des kmeans.
 	\subsection{Iris2}
+	\subsubsection{Question 1}
 	Nous commençons par classifier nos méthodes en 2, 3 puis 4 classes et les représentant dans en fonction des 2 variables \textbf{Petal.Length et Sepal.Width} car comme on a vu dans lq première partie ces dernières sont bien expliquées par les 2 premières composantes principales de l'ACP.  Les résultats sont représentés ci-dessous:
 	
 		\begin{minipage}{.5\textwidth}
@@ -168,13 +169,48 @@
 
 On remarque qu'avec \textbf{k= 2 }classes nous obtenons des individus qui appartiennent a la classe 1 alors qu'ils sont plus proche de la classe 2. Tandis qu'avec \textbf{k= 3} on a des individus qui appartiennent a une classe mais qu'ils sont très éloignés La représentation avec \textbf{k= 4} classes semble plus correcte de plus avec une connaissance a priori des donnes nous savons que c'est le nombre de classe correct.\\
 
-A présent nous effectuant plusieurs opérations de kmeans avec k=3, et on remarque qu'a chaque opération nous obtenons des résultats différents En effet ceci est normal car a la première itération de l'algorithme, celui ci choisit au hasard 3 points (k=3) appartenant aux individus et va construire a partir de ces points les 3 classes. Pour toujours obtenir le même résultat on peut faire un appel  au préalable a la fonction \textit{set.seed(10)} sur R.
+
+\subsubsection{Question 2}
+
+A présent nous avons effectué plusieurs opérations de kmeans avec k=3, et on remarque qu'a chaque opération nous obtenons des résultats différents En effet ceci est normal car a la première itération de l'algorithme, celui ci choisit au hasard 3 points (k=3) appartenant aux individus et va construire a partir de ces points les 3 classes. Pour toujours obtenir le même résultat on peut faire un appel  au préalable a la fonction \textit{set.seed(10)} sur R.
 	
+\subsubsection{Question 3}	
 	
-		\begin{center}
-		\includegraphics[width=45mm]{Figures/Iris_2/withinvar.png}
-		\captionof{figure}{}
-		\label{fig:within_vat}
-	\end{center}
+Dans cette question nous cherchons a déterminer le nombre de classes minimum dans le jeu de données Iris2. Pour cela on utilise la méthode coude.  Tout d'abord on effectue 100 opérations kmeans pour chaque k = 2,3...10, en calcule l'\textit{inertie intra-classe} pour k et choisissant l'inertie minimum pour représenter l'inertie de chaque k, ce qui s'écrit comme $\hat{I_{k}} = min_{i=1..100} I_{k_{i}}$. Pour cela on utilise une matrice 10*100 ou on sauvegarde l'inertie a chaque opération puis on récupère l'inertie intra-classe minimale de chaque ligne. Le code en R détaillé et commente de cet algorithme est a trouver en annexe.
+La méthode du coude consiste a choisir le point d'inflexion sur la courbe tel que l'inertie intra-classe ne diminue pas de manière aussi rapide en rajoutant des clusters.  Comme il est représenté dans la figure \ref{fig:withinvar} et comme on s'attendu aussi, le nombre de classes minimum du jeu de données Iris2 est 3. \\
 	
+\begin{center}
+	\includegraphics[width=45mm]{Figures/Iris_2/withinvar.png}
+	\captionof{figure}{}
+	\label{fig:withinvar}
+\end{center}
+
+ \subsubsection{ Question 4: Analyse des résultats pour k= 3}
+On commence par afficher la matrice de confusion
+Pour analyser la qualité de classification de la méthode des kmeans nous utilisons\textit{ l'index de Rand} ajusté et la représentation graphique. L'index de Rand est calculé en R grâce a la fonction \textit{adjustedRandIndex} . L'index de Rand est compris entre 0 et 1, plus l'index est proche de 1, plus la classification de la méthode correspond a la classification initiale. Nous obtenons un \textbf{index = 0.73 } ce qui montre que notre classification se rapproche de la classification de la colonne espèces.
+
+Pour mieux analyser les points qui sont mal classés nous avons fait une interaction entre la colonne espèce qui représente la vrai classification et la colonne iris.kmeans\$cluster puis nous les avons représente graphiquement. 
+
+	\begin{minipage}{.5\textwidth}
+		\begin{tabular}{c c c c}	
+			Espece &setosa & versicolor & virginica\\
+			1     &  50     &     0    &     0\\
+			2     & 0       &   2      &  36\\
+			3     & 0    &     48   &     14
+		\end{tabular}
+\end{minipage}%
+\hspace{0.08\linewidth}
+\begin{minipage}{.5\textwidth}
+	\includegraphics[width=45mm]{Figures/Iris_2/interaction.png}
+	\captionof{figure}{Comparaison de la classification originale et celle des kmeans }
+	\label{fig:interaction}
+\end{minipage}
+\vspace{0.1mm}\\
+
+
+\subsubsection{Conclusion}
+
+
+
+
 \end{document}

@@ -9,6 +9,11 @@ library(GGally)
 library(ggfortify)
 library(ggtern)
 
+#*****************************************************************#
+#                                        				          #
+#             					Iris 	    					  #
+#                                       					      #
+#*****************************************************************#
 
 data(iris)
 summary(iris)
@@ -56,6 +61,13 @@ autoplot(iris.pca, data= iris, colour= 'Species', shape= FALSE,
 #À quoi peut-on s’attendre si l’on recherche une partition des données ?
 
 
+#*****************************************************************#
+#                                        				          #
+#             					Crabs	    					  #
+#                                       					      #
+#*****************************************************************#
+
+
 #Charger le jeu de données Crabs à partir du fichier crabs2.csv disponible sur le site de l’UV. 
 crabs2 = read.csv("data/crabs2.csv", header=T)
 summary(crabs2)
@@ -89,6 +101,13 @@ autoplot(crabs2.pca, data= crabs2, colour= 'y', shape= FALSE,
 
 #Afficher ensuite les données en tenant compte des informations d’espèce et de sexe. 
 #Que constatez-vous ?
+
+
+#*********************************************************************#
+#                                           				          #
+#             					Mutation	    					  #
+#                                       		     			      #
+#*********************************************************************#
 
 # Charger les données de Mutations à partir du fichier mutations2.csv et déclarer l
 #es données comme tableau de dissimilarités ; on utilisera la commande suivante :

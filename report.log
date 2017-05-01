@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 APR 2017 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAY 2017 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -396,6 +396,10 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 53.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.49994> not available
+(Font)              size <6> substituted on input line 53.
+
 <Figures/Iris_1/plotnospieces.png, id=1, 481.8pt x 481.8pt>
 File: Figures/Iris_1/plotnospieces.png Graphic file (type png)
 
@@ -421,7 +425,7 @@ Overfull \hbox (24.12369pt too wide) in paragraph at lines 64--76
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 )
-<Figures/Crabs2_1/plotnospieces.png, id=16, 481.8pt x 481.8pt>
+<Figures/Crabs2_1/plotnospieces.png, id=17, 481.8pt x 481.8pt>
 File: Figures/Crabs2_1/plotnospieces.png Graphic file (type png)
 
 <use Figures/Crabs2_1/plotnospieces.png>
@@ -429,7 +433,7 @@ Package pdftex.def Info: Figures/Crabs2_1/plotnospieces.png used on input line
 87.
 (pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
 
-<Figures/Crabs2_1/plotspieces.png, id=17, 481.8pt x 481.8pt>
+<Figures/Crabs2_1/plotspieces.png, id=18, 481.8pt x 481.8pt>
 File: Figures/Crabs2_1/plotspieces.png Graphic file (type png)
 
 <use Figures/Crabs2_1/plotspieces.png>
@@ -443,7 +447,7 @@ Overfull \hbox (24.12369pt too wide) in paragraph at lines 86--98
 
 [2 <./Figures/Iris_1/plotnospieces.png> <./Figures/Iris_1/plotspieces.png>]
 [3 <./Figures/Crabs2_1/plotnospieces.png> <./Figures/Crabs2_1/plotspieces.png>]
-<Figures/Mutations2_1/shepard2.png, id=28, 481.8pt x 481.8pt>
+<Figures/Mutations2_1/shepard2.png, id=29, 481.8pt x 481.8pt>
 File: Figures/Mutations2_1/shepard2.png Graphic file (type png)
 
 <use Figures/Mutations2_1/shepard2.png>
@@ -451,7 +455,7 @@ Package pdftex.def Info: Figures/Mutations2_1/shepard2.png used on input line 1
 09.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
-<Figures/Mutations2_1/shepard3.png, id=29, 481.8pt x 481.8pt>
+<Figures/Mutations2_1/shepard3.png, id=30, 481.8pt x 481.8pt>
 File: Figures/Mutations2_1/shepard3.png Graphic file (type png)
 
 <use Figures/Mutations2_1/shepard3.png>
@@ -463,7 +467,7 @@ Overfull \hbox (24.12369pt too wide) in paragraph at lines 108--120
 []$[]$  $[]$
  []
 
-<Figures/Mutations2_1/shepard4.png, id=30, 481.8pt x 481.8pt>
+<Figures/Mutations2_1/shepard4.png, id=31, 481.8pt x 481.8pt>
 File: Figures/Mutations2_1/shepard4.png Graphic file (type png)
 
 <use Figures/Mutations2_1/shepard4.png>
@@ -471,7 +475,7 @@ Package pdftex.def Info: Figures/Mutations2_1/shepard4.png used on input line 1
 24.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
-<Figures/Mutations2_1/shepard5.png, id=31, 481.8pt x 481.8pt>
+<Figures/Mutations2_1/shepard5.png, id=32, 481.8pt x 481.8pt>
 File: Figures/Mutations2_1/shepard5.png Graphic file (type png)
 
 <use Figures/Mutations2_1/shepard5.png>
@@ -483,7 +487,7 @@ Overfull \hbox (24.12369pt too wide) in paragraph at lines 123--135
 []$[]$  $[]$
  []
 
-<Figures/Mutations2_1/barplot.png, id=32, 481.8pt x 481.8pt>
+<Figures/Mutations2_1/barplot.png, id=33, 481.8pt x 481.8pt>
 File: Figures/Mutations2_1/barplot.png Graphic file (type png)
 
 <use Figures/Mutations2_1/barplot.png>
@@ -492,14 +496,14 @@ Package pdftex.def Info: Figures/Mutations2_1/barplot.png used on input line 14
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
  [4 <./Figures/Mutations2_1/shepard2.png> <./Figures/Mutations2_1/shepard3.png>
  <./Figures/Mutations2_1/shepard4.png> <./Figures/Mutations2_1/shepard5.png>]
-<Figures/Iris_2/kmeans2.png, id=40, 481.8pt x 481.8pt>
+<Figures/Iris_2/kmeans2.png, id=41, 481.8pt x 481.8pt>
 File: Figures/Iris_2/kmeans2.png Graphic file (type png)
 
 <use Figures/Iris_2/kmeans2.png>
 Package pdftex.def Info: Figures/Iris_2/kmeans2.png used on input line 153.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
-<Figures/Iris_2/kmeans3.png, id=41, 481.8pt x 481.8pt>
+<Figures/Iris_2/kmeans3.png, id=42, 481.8pt x 481.8pt>
 File: Figures/Iris_2/kmeans3.png Graphic file (type png)
 
 <use Figures/Iris_2/kmeans3.png>
@@ -511,7 +515,7 @@ Overfull \hbox (24.12369pt too wide) in paragraph at lines 152--164
  []
 
 [5 <./Figures/Mutations2_1/barplot.png>]
-<Figures/Iris_2/kmeans4.png, id=46, 481.8pt x 481.8pt>
+<Figures/Iris_2/kmeans4.png, id=47, 481.8pt x 481.8pt>
 File: Figures/Iris_2/kmeans4.png Graphic file (type png)
 
 <use Figures/Iris_2/kmeans4.png>
@@ -528,59 +532,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--181
  []
 
 [6 <./Figures/Iris_2/kmeans2.png> <./Figures/Iris_2/kmeans3.png> <./Figures/Iri
-s_2/kmeans4.png>] <Figures/Iris_2/withinvar.png, id=53, 481.8pt x 481.8pt>
+s_2/kmeans4.png>] <Figures/Iris_2/withinvar.png, id=54, 481.8pt x 481.8pt>
 File: Figures/Iris_2/withinvar.png Graphic file (type png)
 
 <use Figures/Iris_2/withinvar.png>
 Package pdftex.def Info: Figures/Iris_2/withinvar.png used on input line 183.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
-Overfull \hbox (10.38913pt too wide) in paragraph at lines 195--201
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
+
+ []
+
+
+Overfull \hbox (10.38913pt too wide) in paragraph at lines 197--203
 [][] 
  []
 
-<Figures/Iris_2/interaction.png, id=54, 481.8pt x 481.8pt>
+<Figures/Iris_2/interaction.png, id=55, 481.8pt x 481.8pt>
 File: Figures/Iris_2/interaction.png Graphic file (type png)
 
 <use Figures/Iris_2/interaction.png>
-Package pdftex.def Info: Figures/Iris_2/interaction.png used on input line 204.
+Package pdftex.def Info: Figures/Iris_2/interaction.png used on input line 206.
 
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
-Overfull \hbox (44.82285pt too wide) in paragraph at lines 194--209
+Overfull \hbox (44.82285pt too wide) in paragraph at lines 196--211
 []$[]$  $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--209
+Underfull \hbox (badness 10000) in paragraph at lines 196--211
 
  []
 
 [7 <./Figures/Iris_2/withinvar.png>] [8 <./Figures/Iris_2/interaction.png>]
-(./report.aux) ) 
+(./report.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.49994pt have occurred.
+
+ ) 
 Here is how much of TeX's memory you used:
- 7947 strings out of 493014
- 116423 string characters out of 6133351
+ 7951 strings out of 493014
+ 116473 string characters out of 6133351
  219269 words of memory out of 5000000
- 11354 multiletter control sequences out of 15000+600000
- 12449 words of font info for 48 fonts, out of 8000000 for 9000
+ 11356 multiletter control sequences out of 15000+600000
+ 12802 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,8n,40p,924b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on report.pdf (8 pages, 549923 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on report.pdf (8 pages, 520880 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

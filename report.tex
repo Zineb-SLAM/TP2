@@ -187,9 +187,11 @@ La méthode du coude consiste a choisir le point d'inflexion sur la courbe tel q
 
  \subsubsection{ Question 4: Analyse des résultats pour k= 3}
 On commence par afficher la matrice de confusion
-Pour analyser la qualité de classification de la méthode des kmeans nous utilisons\textit{ l'index de Rand} ajusté et la représentation graphique. L'index de Rand est calculé en R grâce a la fonction \textit{adjustedRandIndex} . L'index de Rand est compris entre 0 et 1, plus l'index est proche de 1, plus la classification de la méthode correspond a la classification initiale. Nous obtenons un \textbf{index = 0.73 } ce qui montre que notre classification se rapproche de la classification de la colonne espèces.
+Pour analyser la qualité de classification de la méthode des kmeans nous utilisons\textit{ l'index de Rand} ajusté et la représentation graphique. L'indexe de Rand compte le nb de paires de points qui sont classes de la même manière dans les 2 partitions. Cet indice de concordance est calculé en R grâce a la fonction \textit{adjustedRandIndex} . L'index de Rand est compris entre 0 et 1, plus l'index est proche de 1, plus la classification de la méthode correspond a la classification initiale.\\
 
-Pour mieux analyser les points qui sont mal classés nous avons fait une interaction entre la colonne espèce qui représente la vrai classification et la colonne iris.kmeans\$cluster puis nous les avons représente graphiquement. 
+
+La diagonale de la matrice de confusion représente les points qui sont bien classes. On voit donc que les individus qui appartenant a l'espèce \textit{Setosa} sont tous bien classes alors que 96\% des individus de \textit{Versicolor} ont ete mal classes et 28\% de \textit{Virginica} sont mal classes aussi.  Nous obtenons un \textbf{index de Rand= 0.73 } ce qui montre que notre classification se rapproche de la vrai classification de la colonne espèces.
+Pour pourvoir comparer graphiquement les 2 classement nous avons fait une interaction entre la colonne espèce la colonne \textit{iris.kmeans\$cluster} que nous avons plot grâce a \textit{ggplot}. 
 
 	\begin{minipage}{.5\textwidth}
 		\begin{tabular}{c c c c}	
@@ -207,8 +209,9 @@ Pour mieux analyser les points qui sont mal classés nous avons fait une interac
 \end{minipage}
 \vspace{0.1mm}\\
 
-
+La figure \ref{fig:interaction} rejoint donc bien la remarque faite précédemment comme quoi les espèces \textit{Versicolor} er \textit{Virginica} ne sont pas bien classes. En effet ceci trouve sens si on revient a la figure \ref{fig:plot_iris}, puisqu'on voir bien que l'espèce \textit{Setosa} ne dépend que d'une seule composante PC1 tandis que les 2 autres espèces sont dépendantes des 2 et ne sont pas linéairement séparable
 \subsubsection{Conclusion}
+Dans cette exercice nous avons utilise la méthode des kmeans pour classifier notre jeu de données Iris. Nous retenons que cette méthode est efficace quand on a des classes bien distinctes et linéairement séparables mais cn'est pas très flexible.
 
 
 

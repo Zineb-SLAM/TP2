@@ -133,7 +133,7 @@
 	\end{minipage}
 	\vspace{0.1mm}
 
-	Nous remarquons que la représentation avec 4 variables le calcul de certaines disimilarites est exacte mais certaines restent loines des valeurs initiales. Avec 5 variables on se rapproche plus du cas initial ou toutes les disimilarites calculées sont plus proche de la droite y=x. Ces résultats étaient prévisibles si on calcule le pourcentage d'inertie expliquée cumule en mettant l'option \textit{eig = TRUE} dans la fonction \textit{cmscale} et récupérer les valeurs propres.
+	Nous remarquons que la représentation avec 4 variables le calcul de certaines dissimilarites est exacte mais certaines restent loines des valeurs initiales. Avec 5 variables on se rapproche plus du cas initial ou toutes les dissimilarites calculées sont plus proche de la droite y=x. Ces résultats étaient prévisibles si on calcule le pourcentage d'inertie expliquée cumule en mettant l'option \textit{eig = TRUE} dans la fonction \textit{cmscale} et récupérer les valeurs propres.
 	
 	\subsubsection{Conclusion}
 	\begin{center}
@@ -142,7 +142,45 @@
 		\label{fig:mutations_barplot}
 		\end{center}
 	On remarque bien qu'avec 2 variables seulement 68\%  et a partir de 4 variables le pourcentage est supérieur a 91\%.
-	\section{ Exercice 2}
+	\section{ Exercice 2: Classification hiérarchique}
+	\subsection{Question 1: CAH Donnees Mutations}
+	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/hclust_Mutations_ward.png}
+	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/hclust_Mutations_cplt.png}\\
+	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/hclust_Mutations_avg.png}
+	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/hclust_Mutations_mcq.png}\\
+	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/hclust_Mutations_mdn.png}
+	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/hclust_Mutations_ctr.png}\\
+	\begin{center}
+		\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/hclust_Mutations_sgl.png}
+	\end{center}
+	
+	Nous remarquons que les méthodes de Ward et complète présentent des CAH identiques. De même la moyenne et Mcquitty d'un autre cote puis la méthode des médianes et des centroides.
+	La methode la plus fiable a choisir est celle de Ward car elle minimise les inerties intra-classes des variables quantitatives.
+
+	\subsection{Question 2:  CAH Donnees Iris}
+	
+	Nous utilserons de critere d'aggregation Ward pour effectuer la CAH des données Iris. Nous mettons en avant aussi les 3 categories d'especes.
+	\begin{center}
+		\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/hclust_Iris_ward.png}
+	\end{center}
+	
+	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/ggplot_Iris_ward.png}
+	\captionof{figure}{Represenation des donnees Iris avec la methode Ward}
+	\label{fig:iris_ward_ggplot}
+	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/ggplot_Iris_normal.png}
+	\captionof{figure}{Represenation des donnees normales Iris}
+	\label{fig:iris_normal_ggplot}
+	
+	Nous observons grâce au ggplot le chevauchement des especes Versicolor et Virginica. Elles sont difficilement differenciables sans couleurs contrairement a l'espèce Setosa.
+	
+	\subsection{Question 3:  CDH Donnees Iris}
+	
+	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/diana_Iris.png}
+	\captionof{figure}{Represenation de la classification descendante donnees Iris}
+	\label{fig:iris_diana}
+	
+	Nous n'avons pas observe des différences flagrantes entre la classification hiérarchique ascendante et descendante
+	
 	\section{ Exercice 3: Méthodes des centres mobiles}
 	Le but de cet exercice est de manipuler la méthode des kmeans sur les trois jeux de données Iris2, Crabs2 et mutations et analyser la qualité de la méthode et ses limites. On utilisera l'index de Rand ajustée ainsi que les représentations graphiques pour juger des performances des kmeans.
 	\subsection{Iris2}

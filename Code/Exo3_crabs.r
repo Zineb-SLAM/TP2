@@ -84,18 +84,13 @@ crabs.kmeans4$cluster = as.factor(crabs.kmeans4$cluster)
 ggplot(crabs2, aes(RW2, BD2 , color= crabs.kmeans4$cluster)) + geom_point()
 
 #plot
-merge = interaction(crabs2$y,crabs.kmeans4$cluster)
+#merge = interaction(crabs2$y,crabs.kmeans4$cluster)
 
-#png("/Users/zineb/Desktop/Studies/GI05/SY09/SY09_TPs/TP2/Figures/Iris_2/interaction.png")
-ggplot(crabs2, aes(RW2, BD2, color= merge)) + geom_point()
-#dev.off()
-
-
-
+ggplot(crabs2, aes(RW2, BD2, color= crabs2$y)) + geom_point()
 
 adjustedRandIndex(crabs.kmeans2$cluster, crabs2$y)
 adjustedRandIndex(crabs.kmeans4$cluster, crabs2$y)
-# 4 is better 
+# 4 est meilleur
 
 
 

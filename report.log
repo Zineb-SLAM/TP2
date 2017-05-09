@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 MAY 2017 23:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAY 2017 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -584,147 +584,185 @@ File: Figures/HClust/ggplot_Iris_ward.png Graphic file (type png)
 
 <use Figures/HClust/ggplot_Iris_ward.png>
 Package pdftex.def Info: Figures/HClust/ggplot_Iris_ward.png used on input line
- 168.
-(pdftex.def)             Requested size: 227.62228pt x 227.62228pt.
-
-
-Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 169.
-See the caption package documentation for explanation.
+ 169.
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
 <Figures/HClust/ggplot_Iris_normal.png, id=67, 481.8pt x 481.8pt>
 File: Figures/HClust/ggplot_Iris_normal.png Graphic file (type png)
 
 <use Figures/HClust/ggplot_Iris_normal.png>
 Package pdftex.def Info: Figures/HClust/ggplot_Iris_normal.png used on input li
-ne 171.
-(pdftex.def)             Requested size: 227.62228pt x 227.62228pt.
- [8 <./Figures/HClust/hclust_Iris_ward.png> <./Figures/HClust/ggplot_Iris_ward.
-png>]
-<Figures/HClust/diana_Iris.png, id=73, 481.8pt x 481.8pt>
+ne 175.
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
+
+Overfull \hbox (24.12369pt too wide) in paragraph at lines 168--180
+[]$[]$  $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--180
+
+ []
+
+<Figures/HClust/diana_Iris.png, id=68, 481.8pt x 481.8pt>
 File: Figures/HClust/diana_Iris.png Graphic file (type png)
 
 <use Figures/HClust/diana_Iris.png>
-Package pdftex.def Info: Figures/HClust/diana_Iris.png used on input line 179.
+Package pdftex.def Info: Figures/HClust/diana_Iris.png used on input line 185.
 (pdftex.def)             Requested size: 227.62228pt x 227.62228pt.
- [9 <./Figures/HClust/ggplot_Iris_normal.png> <./Figures/HClust/diana_Iris.png>
-]
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+ [8 <./Figures/HClust/hclust_Iris_ward.png> <./Figures/HClust/ggplot_Iris_ward.
+png> <./Figures/HClust/ggplot_Iris_normal.png>]
+Overfull \hbox (18.16719pt too wide) in paragraph at lines 189--190
+\OT1/cmr/m/n/10 Nous n'avons pas ob-serve des diff^^Serences fla-grantes entre 
+la clas-si-fi-ca-tion hi^^Serarchique
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
-<Figures/Iris_2/kmeans2.png, id=79, 481.8pt x 481.8pt>
+<Figures/Iris_2/kmeans2.png, id=75, 481.8pt x 481.8pt>
 File: Figures/Iris_2/kmeans2.png Graphic file (type png)
 
 <use Figures/Iris_2/kmeans2.png>
-Package pdftex.def Info: Figures/Iris_2/kmeans2.png used on input line 192.
+Package pdftex.def Info: Figures/Iris_2/kmeans2.png used on input line 198.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
-<Figures/Iris_2/kmeans3.png, id=80, 481.8pt x 481.8pt>
+<Figures/Iris_2/kmeans3.png, id=76, 481.8pt x 481.8pt>
 File: Figures/Iris_2/kmeans3.png Graphic file (type png)
 
 <use Figures/Iris_2/kmeans3.png>
-Package pdftex.def Info: Figures/Iris_2/kmeans3.png used on input line 198.
+Package pdftex.def Info: Figures/Iris_2/kmeans3.png used on input line 204.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
-Overfull \hbox (9.12369pt too wide) in paragraph at lines 191--203
+Overfull \hbox (24.12369pt too wide) in paragraph at lines 197--209
 []$[]$  $[]$
  []
 
+[9 <./Figures/HClust/diana_Iris.png>]
 <Figures/Iris_2/kmeans4.png, id=81, 481.8pt x 481.8pt>
 File: Figures/Iris_2/kmeans4.png Graphic file (type png)
 
 <use Figures/Iris_2/kmeans4.png>
-Package pdftex.def Info: Figures/Iris_2/kmeans4.png used on input line 204.
+Package pdftex.def Info: Figures/Iris_2/kmeans4.png used on input line 210.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
- [10 <./Figures/Iris_2/kmeans2.png> <./Figures/Iris_2/kmeans3.png> <./Figures/I
-ris_2/kmeans4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
 
  []
 
-<Figures/Iris_2/withinvar.png, id=88, 481.8pt x 481.8pt>
+[10 <./Figures/Iris_2/kmeans2.png> <./Figures/Iris_2/kmeans3.png> <./Figures/Ir
+is_2/kmeans4.png>] <Figures/Iris_2/withinvar.png, id=88, 481.8pt x 481.8pt>
 File: Figures/Iris_2/withinvar.png Graphic file (type png)
 
 <use Figures/Iris_2/withinvar.png>
-Package pdftex.def Info: Figures/Iris_2/withinvar.png used on input line 222.
+Package pdftex.def Info: Figures/Iris_2/withinvar.png used on input line 228.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
- [11 <./Figures/Iris_2/withinvar.png>]
-Overfull \hbox (10.38913pt too wide) in paragraph at lines 234--240
+
+Overfull \hbox (10.38913pt too wide) in paragraph at lines 240--246
 [][] 
  []
 
-<Figures/Iris_2/interaction.png, id=97, 481.8pt x 481.8pt>
+<Figures/Iris_2/interaction.png, id=89, 481.8pt x 481.8pt>
 File: Figures/Iris_2/interaction.png Graphic file (type png)
 
 <use Figures/Iris_2/interaction.png>
-Package pdftex.def Info: Figures/Iris_2/interaction.png used on input line 243.
+Package pdftex.def Info: Figures/Iris_2/interaction.png used on input line 249.
 
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
-Overfull \hbox (29.82285pt too wide) in paragraph at lines 233--248
+Overfull \hbox (44.82285pt too wide) in paragraph at lines 239--254
 []$[]$  $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--248
+Underfull \hbox (badness 10000) in paragraph at lines 239--254
 
  []
 
+[11 <./Figures/Iris_2/withinvar.png>]
+<Figures/Crabs2_2/kmeans2_1.png, id=99, 481.8pt x 481.8pt>
+File: Figures/Crabs2_2/kmeans2_1.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--256
+<use Figures/Crabs2_2/kmeans2_1.png>
+Package pdftex.def Info: Figures/Crabs2_2/kmeans2_1.png used on input line 265.
+
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
+ [12 <./Figures/Iris_2/interaction.png> <./Figures/Crabs2_2/kmeans2_1.png>]
+<Figures/Crabs2_2/kmeans4.png, id=105, 481.8pt x 481.8pt>
+File: Figures/Crabs2_2/kmeans4.png Graphic file (type png)
+
+<use Figures/Crabs2_2/kmeans4.png>
+Package pdftex.def Info: Figures/Crabs2_2/kmeans4.png used on input line 274.
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
+
+<Figures/Crabs2_2/plotRealData.png, id=106, 481.8pt x 481.8pt>
+File: Figures/Crabs2_2/plotRealData.png Graphic file (type png)
+
+<use Figures/Crabs2_2/plotRealData.png>
+Package pdftex.def Info: Figures/Crabs2_2/plotRealData.png used on input line 2
+79.
+(pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--288
 
  []
 
-[12 <./Figures/Iris_2/interaction.png>]
-<Figures/Mutations2_2/kmeans1.png, id=103, 481.8pt x 481.8pt>
+<Figures/Mutations2_2/kmeans1.png, id=107, 481.8pt x 481.8pt>
 File: Figures/Mutations2_2/kmeans1.png Graphic file (type png)
 
 <use Figures/Mutations2_2/kmeans1.png>
-Package pdftex.def Info: Figures/Mutations2_2/kmeans1.png used on input line 25
-8.
+Package pdftex.def Info: Figures/Mutations2_2/kmeans1.png used on input line 29
+0.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
-Overfull \hbox (17.63487pt too wide) in paragraph at lines 258--259
+Overfull \hbox (17.63487pt too wide) in paragraph at lines 290--291
 [][] 
  []
 
-<Figures/Mutations2_2/kmeans2.png, id=104, 481.8pt x 481.8pt>
+<Figures/Mutations2_2/kmeans2.png, id=108, 481.8pt x 481.8pt>
 File: Figures/Mutations2_2/kmeans2.png Graphic file (type png)
 
 <use Figures/Mutations2_2/kmeans2.png>
-Package pdftex.def Info: Figures/Mutations2_2/kmeans2.png used on input line 26
-4.
+Package pdftex.def Info: Figures/Mutations2_2/kmeans2.png used on input line 29
+6.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
-Overfull \hbox (17.63487pt too wide) in paragraph at lines 264--265
+Overfull \hbox (17.63487pt too wide) in paragraph at lines 296--297
 [][] 
  []
 
-<Figures/Mutations2_2/kmeans3.png, id=105, 481.8pt x 481.8pt>
+<Figures/Mutations2_2/kmeans3.png, id=109, 481.8pt x 481.8pt>
 File: Figures/Mutations2_2/kmeans3.png Graphic file (type png)
 
 <use Figures/Mutations2_2/kmeans3.png>
-Package pdftex.def Info: Figures/Mutations2_2/kmeans3.png used on input line 26
-9.
+Package pdftex.def Info: Figures/Mutations2_2/kmeans3.png used on input line 30
+1.
 (pdftex.def)             Requested size: 128.0374pt x 128.03662pt.
 
-Overfull \hbox (17.63487pt too wide) in paragraph at lines 269--270
+Overfull \hbox (17.63487pt too wide) in paragraph at lines 301--302
 [][] 
  []
 
-[13 <./Figures/Mutations2_2/kmeans1.png> <./Figures/Mutations2_2/kmeans2.png> <
+
+Overfull \hbox (12.55348pt too wide) in paragraph at lines 289--307
+[]$[]$  $[]$ $[]$
+ []
+
+[13 <./Figures/Crabs2_2/kmeans4.png> <./Figures/Crabs2_2/plotRealData.png>]
+[14 <./Figures/Mutations2_2/kmeans1.png> <./Figures/Mutations2_2/kmeans2.png> <
 ./Figures/Mutations2_2/kmeans3.png>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 8027 strings out of 493014
- 119191 string characters out of 6133351
- 220269 words of memory out of 5000000
- 11419 multiletter control sequences out of 15000+600000
+ 8045 strings out of 493014
+ 119721 string characters out of 6133351
+ 219269 words of memory out of 5000000
+ 11434 multiletter control sequences out of 15000+600000
  12802 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,8n,40p,941b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -741,10 +779,10 @@ onts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb>
-Output written on report.pdf (13 pages, 809587 bytes).
+Output written on report.pdf (14 pages, 886350 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 161 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 

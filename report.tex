@@ -144,7 +144,7 @@
 	
 
 	\section{ Exercice 2: Classification hiérarchique}
-	\subsection{Question 1: CAH Donnees Mutations}
+	\subsection{Question 1:  Données Mutations}
 	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/hclust_Mutations_ward.png}
 	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/hclust_Mutations_cplt.png}\\
 	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/hclust_Mutations_avg.png}
@@ -158,28 +158,34 @@
 	Nous remarquons que les méthodes de Ward et complète présentent des CAH identiques. De même la moyenne et Mcquitty d'un autre cote puis la méthode des médianes et des centroides.
 	La methode la plus fiable a choisir est celle de Ward car elle minimise les inerties intra-classes des variables quantitatives.
 
-	\subsection{Question 2:  CAH Donnees Iris}
+	\subsection{Question 2:  Données Iris (Ascendante)}
 	
-	Nous utilserons de critere d'aggregation Ward pour effectuer la CAH des données Iris. Nous mettons en avant aussi les 3 categories d'especes.
+	Nous utiliserons le critère d'agrégation Ward pour effectuer la classification hiérarchique ascendante des données Iris. Nous mettons en avant aussi les 3 catégories d'espèces.
 	\begin{center}
 		\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/hclust_Iris_ward.png}
 	\end{center}
-	
-	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/ggplot_Iris_ward.png}
-	\captionof{figure}{Represenation des donnees Iris avec la methode Ward}
+
+	\begin{minipage}{.5\textwidth}
+	\includegraphics[width = 45mm]{Figures/HClust/ggplot_Iris_ward.png}
+	\captionof{figure}{Representation des donnees Iris avec la methode Ward}
 	\label{fig:iris_ward_ggplot}
-	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/ggplot_Iris_normal.png}
+	\end{minipage}%
+	\hspace{0.02\linewidth}
+	\begin{minipage}{.5\textwidth}
+	\includegraphics[width = 45mm]{Figures/HClust/ggplot_Iris_normal.png}
 	\captionof{figure}{Represenation des donnees normales Iris}
 	\label{fig:iris_normal_ggplot}
+	\end{minipage}
+	\newline
 	
-	Nous observons grâce au ggplot le chevauchement des espèces Versicolor et Virginica. Elles sont difficilement différentiables sans couleurs contrairement a l'espèce Setosa.
+	Nous observons grâce au plot le chevauchement des espèces Versicolor et Virginica. Elles sont difficilement différentiables sans couleurs contrairement a l'espèce Setosa.
 	
-	\subsection{Question 3:  CDH Donnees Iris}
-	
-	\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/diana_Iris.png}
-	\captionof{figure}{Represenation de la classification descendante donnees Iris}
-	\label{fig:iris_diana}
-	
+	\subsection{Question 3: Données Iris (Descendante)}
+	\begin{center}
+		\includegraphics[height = 8cm, width = 8cm]{Figures/HClust/diana_Iris.png}
+		\captionof{figure}{Represenation de la classification descendante donnees Iris}
+		\label{fig:iris_diana}
+	\end{center}
 	Nous n'avons pas observe des différences flagrantes entre la classification hiérarchique ascendante et descendante
 	
 	\section{ Exercice 3: Méthodes des centres mobiles}
@@ -250,7 +256,33 @@ La figure \ref{fig:interaction} rejoint donc bien la remarque faite précédemme
 \subsubsection{Conclusion}
 Dans cette exercice nous avons utilisé la méthode des kmeans pour classifier notre jeu de données Iris. Nous retenons que cette méthode est efficace quand on a des classes bien distinctes et linéairement séparables mais n'est pas très flexible.
 
-\subsubsection{Mutations}
+\subsection{Crabs2}
+
+\subsubsection{Question 1: K=2}
+
+Nous effectuons plusieurs classifications (100 par exemple) des donnees de Crabs2. Nous remarquons la formations de deux classes essentiellement selon l'espece comme la figure ci -dessous. Parfois nous obtenons egalement une classification selon le sexe.
+\begin{center}
+	\includegraphics[width=45mm]{Figures/Crabs2_2/kmeans2_1.png}
+	\captionof{figure}{Representation  de Crabs2 en 2 classes}
+	\label{fig:crabs2_kmeans2}
+\end{center}
+\hspace{0.02\linewidth}
+
+\subsubsection{Question 2: K=4}
+
+\begin{center}
+	\includegraphics[width=45mm]{Figures/Crabs2_2/kmeans4.png}
+	\captionof{figure}{Representation des Crabs2 en 4 classes}
+	\label{fig:iris_kmeans4}
+\end{center}
+\begin{center}
+	\includegraphics[width=45mm]{Figures/Crabs2_2/plotRealData.png}
+	\captionof{figure}{Representation des donnees reelles de Crabs }
+	\label{fig:iris_kmeansReal}
+\end{center}
+En comparant les représentations de la classification en 4 classes et celle des données réelles, nous observons une similitude. Il s'agit de deux classifications en deux classes. Chaque classe représente une combinaison sexe-espèce différente 
+
+\subsection{Mutations}
 Après avoir réalisé l'AFTD pour réduire la dimension de nos jeux de données de 20 à 5, nous utilisons l'algorithme des centres mobiles pour classer les individus en 3 classes. Notons qu'avec 5 variables on explique 91\% des données.\\
 Tout d'abord on effectue 1000 itérations en appelant la fonction \textit{kmeans} et on enregistre dans un vecteur l'inertie  intra-classe. Ensuite grâce a la fonction \textit{unique} de R on a pu recensé  6 inerties différentes. Ainsi avec 3 classes on peut classer les espèces de 6 manières différentes. Nous avons représentons ci-dessous 3 de ces classifications.\\
 
